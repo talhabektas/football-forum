@@ -13,7 +13,6 @@ import (
 func main() {
 	log.Println("Uygulama başlatılıyor...")
 
-	// Veritabanını başlat
 	database.InitDB()
 
 	router := mux.NewRouter()
